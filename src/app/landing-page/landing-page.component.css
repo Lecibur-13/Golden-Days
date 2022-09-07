@@ -1,0 +1,68 @@
+/*180 px = 8rem*/
+/*64 px = 4rem*/
+
+/*start*/
+.start {
+  background: #1e3c7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 !important;
+}
+
+.start .logo {
+  margin: 1rem;
+}
+
+.start .logo img {
+  width: 100%;
+}
+
+/*first*/
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  background: #F5E6C8;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  align-items: center;
+}
+
+.content .logo-min-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content .logo-min-container img {
+  width: 25%;
+}
+
+.content .text-container {
+  width: 100%;
+  color: #F00611;
+}
+
+.content .carrusel {
+  width: 70%;
+  box-shadow: 10px 11px 0px -2px rgba(240,6,17,1);
+  -webkit-box-shadow: 10px 11px 0px -2px rgba(240,6,17,1);
+  -moz-box-shadow: 10px 11px 0px -2px rgba(240,6,17,1);
+}
+
+
+.flex {
+  flex: 1;
+  min-width: 250px;
+}
+
+.full-size {
+  height: 100vh;
+  padding: 4rem;
+}

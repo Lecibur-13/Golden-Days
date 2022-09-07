@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  /*min-width: 100vw;*/
+  min-height: 100vh;
+  /*box-sizing: border-box*/
+}
+
+.golden-title {
+  font-size: 8rem;
+}
+
+@media (max-width: 850px) {
+  .golden-title {
+    font-size: 3.5rem;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0;
+  font-family: Saint George , sans-serif;  }
