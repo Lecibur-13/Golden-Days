@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1662698279306,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./favicon.ico",
+        "./index.html",
+        "./main.de52c7469cb9596b.js",
+        "./manifest.webmanifest",
+        "./polyfills.c58ea2e97e360aa5.js",
+        "./runtime.9884068931f91b52.js",
+        "./styles.fd0b2b3de1748386.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./assets/Fonts/SaintGeorge.ttf",
+        "./assets/icons/icon-128x128.png",
+        "./assets/icons/icon-144x144.png",
+        "./assets/icons/icon-152x152.png",
+        "./assets/icons/icon-192x192.png",
+        "./assets/icons/icon-384x384.png",
+        "./assets/icons/icon-512x512.png",
+        "./assets/icons/icon-72x72.png",
+        "./assets/icons/icon-96x96.png",
+        "./assets/img/logo-min.png",
+        "./assets/img/logo-sun.png",
+        "./assets/img/logo.png",
+        "./assets/img/me.jpeg",
+        "./assets/img/oldPeople.jpg",
+        "./assets/img/portrait1.jpg",
+        "./assets/img/portrait2.jpg",
+        "./assets/img/why.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./assets/Fonts/SaintGeorge.ttf": "890875a8ae657381c8279b9f9f1adade59f411f1",
+    "./assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "./assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "./assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "./assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "./assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "./assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "./assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "./assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "./assets/img/logo-min.png": "8cced52143013e77cb3dd70d10db81221f691e72",
+    "./assets/img/logo-sun.png": "18f992d5118a5aed3dee3d22ab2496b3a55c1663",
+    "./assets/img/logo.png": "cadbddbc77eb867ccfca4f9fb452a704d443dc7c",
+    "./assets/img/me.jpeg": "0be9519d62c4f4b347324fb39e5411d8efcbe6a9",
+    "./assets/img/oldPeople.jpg": "70efb89cbadc72ecc225766218229a7bb950e9f1",
+    "./assets/img/portrait1.jpg": "b186350eccf3462091dc8cea7e4de930e2feee84",
+    "./assets/img/portrait2.jpg": "f1b7800ab517c4d8abbe04d0e4af19450dce088a",
+    "./assets/img/why.jpg": "bceb6f6d14608f822a26c29010a177169c168b71",
+    "./favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "./index.html": "55a55937c94959f5747a512515abafae3384813b",
+    "./main.de52c7469cb9596b.js": "f869aba8b772e7dc0ecc7c4657693a077a45c362",
+    "./manifest.webmanifest": "29ee14dae7c1d6d19ec379b916eb841759fc1f4c",
+    "./polyfills.c58ea2e97e360aa5.js": "153f457f385cd58dd91695e430e572c3d697d1ed",
+    "./runtime.9884068931f91b52.js": "ec6035559acacf1cb6831091775362410e735fc7",
+    "./styles.fd0b2b3de1748386.css": "795d6d221fc9ee7c6290464752676f6ce612b028"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
