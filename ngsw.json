@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662733113619,
+  "timestamp": 1662734787742,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main.e378ba5751efe1fd.js",
+        "./main.9562c5d3d6af36a3.js",
         "./manifest.webmanifest",
         "./polyfills.c58ea2e97e360aa5.js",
         "./runtime.9884068931f91b52.js",
-        "./styles.fd0b2b3de1748386.css"
+        "./styles.d8a6a31798f6fcb8.css"
       ],
       "patterns": []
     },
@@ -29,6 +29,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "./SaintGeorge.d53113ce103a0305.ttf",
         "./assets/Fonts/SaintGeorge.ttf",
         "./assets/icons/icon-128x128.png",
         "./assets/icons/icon-144x144.png",
@@ -52,6 +53,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "./SaintGeorge.d53113ce103a0305.ttf": "890875a8ae657381c8279b9f9f1adade59f411f1",
     "./assets/Fonts/SaintGeorge.ttf": "890875a8ae657381c8279b9f9f1adade59f411f1",
     "./assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "./assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -70,12 +72,12 @@
     "./assets/img/portrait2.jpg": "f1b7800ab517c4d8abbe04d0e4af19450dce088a",
     "./assets/img/why.jpg": "bceb6f6d14608f822a26c29010a177169c168b71",
     "./favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "./index.html": "9f5be4bcc604db97cb752f8ea6aaf14ade8a020a",
-    "./main.e378ba5751efe1fd.js": "a61ce4b80929ab08f63ba17e1edeecd8fd1a9d96",
+    "./index.html": "9ddedafde7fd56d663a85f82f33dfd3fce0964b0",
+    "./main.9562c5d3d6af36a3.js": "da97efb1d6cdb591d6f9920adf480c4869015d02",
     "./manifest.webmanifest": "29ee14dae7c1d6d19ec379b916eb841759fc1f4c",
     "./polyfills.c58ea2e97e360aa5.js": "153f457f385cd58dd91695e430e572c3d697d1ed",
     "./runtime.9884068931f91b52.js": "ec6035559acacf1cb6831091775362410e735fc7",
-    "./styles.fd0b2b3de1748386.css": "795d6d221fc9ee7c6290464752676f6ce612b028"
+    "./styles.d8a6a31798f6fcb8.css": "2e65a38c83a83503fce64b0dfc6eec2fb01591cf"
   },
   "navigationUrls": [
     {
