@@ -1,14 +1,14 @@
 <div class="wrapper">
-  <div class="start full-size">
-    <div class="logo">
+  <div class="start full-size full-padding">
+    <div class="logo margin">
       <img src="assets/img/logo.png" alt="GoldenDays logo">
     </div>
   </div>
 
-  <div class="first full-size">
+  <div class="first full-size full-padding">
     <div class="content flex">
       <div class="logo-min-container">
-                <img src="assets/img/logo-sun.png" alt="logo min">
+        <img src="assets/img/logo-sun.png" alt="logo min">
       </div>
       <div class="text-container golden-title">
         Film is not Dead
@@ -20,67 +20,53 @@
   </div>
 
 
-  <div class="my-work full-size">
-    <div class="logo-min-container">
-      <img src="assets/img/logo-sun.png" alt="logo min">
+  <div class="my-work full-size full-padding">
+    <div class="content-work">
+      <div class="logo-min-container">
+        <img src="assets/img/logo-sun.png" alt="logo min">
+      </div>
+      <div class="text-container golden-title text-center">
+        mi trabajo destacado.
+      </div>
+      <div class="button">
+        <button class="general margin">ver más</button>
+      </div>
     </div>
-    <div class="text-container golden-title">
-      mi trabajo destacado.
-    </div>
-    <div class="button">
-      <button class="general"></button>
-    </div>
-    <ngx-light-carousel  [options]="options"  [data]="slides">
-      <section  ngx-light-carousel-container>
-        <article  ngx-light-carousel-item  *ngFor="let slide of slides; let i = index">
-          <div class="slide w-100">
-            <a href="{{slide.url}}">
-              <img class="w-100" src="{{slide.image}}">
-            </a>
-            <h3 class="title">{{slide.title}}</h3>
+
+    <div class="carousel margin">
+      <ngb-carousel>
+        <ng-template *ngFor="let image of img" ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img class="carousel-img film-photo" src="{{image}}" alt="Random first slide">
           </div>
-        </article>
-        <!-- include the outlet for infinite scroll at the end of the loop -->
-        <ng-template  #infiniteContainer></ng-template>
-      </section>
+        </ng-template>
+      </ngb-carousel>
+    </div>
 
-      <!-- define what the infinite scroll item looks like, typically a copy of the regular item -->
-      <ng-template #carouselContent let-slide let-i="index">
-        <article>
-          <div class="slide w-100">
-            <a href="{{slide.url}}">
-              <img class="w-100" src="{{slide.image}}">
-            </a>
-            <h3 class="title">{{slide.title}}</h3>
-          </div>
-        </article>
-      </ng-template>
-
-      <!-- Custom contents for the previous button -->
-      <ng-template  #carouselPrev>
-        <div  class="click-area">
-        </div>
-      </ng-template>
-
-      <!-- Custom contents for the next button -->
-      <ng-template  #carouselNext>
-        <div  class="click-area">
-        </div>
-      </ng-template>
-
-      <!-- Custom contents for the carousel index -->
-      <ng-template  #carouselDot  let-model>
-        <div class="ball bg-accent">
-        </div>
-      </ng-template>
-
-      <!-- Custom contents for the progress bar (todo) -->
-      <ng-template  #carouselProgress  let-progress>
-        <div  class="progress"></div>
-      </ng-template>
-    </ngx-light-carousel>
   </div>
 
-<!--  <div class="about full-size"></div>-->
+    <div class="about full-size">
+
+      <div class="content flex about-content">
+        <div class="logo-min-container">
+          <img src="assets/img/logo-sun.png" alt="logo min">
+        </div>
+        <div class="text-container golden-title">
+          acerca de mi
+        </div>
+        <div class="text-container golden-text">
+          ¡hola! soy Rubicel, un ingeniero de software, pero tambien un  apasiado fotografo analogo.
+        </div>
+
+        <div class="button">
+          <button class="general margin">ver más</button>
+        </div>
+      </div>
+
+      <div class="content flex me-img">
+        <img class="film-photo " src="assets/img/me.jpeg" alt="viejitos">
+      </div>
+
+    </div>
 
 </div>

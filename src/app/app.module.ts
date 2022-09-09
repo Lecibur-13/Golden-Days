@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPageModule } from "./landing-page/landing-page.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgxCarouselModule } from "ngx-light-carousel";
+import {NgbCarouselModule, NgbModule, NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,9 @@ import { NgxCarouselModule } from "ngx-light-carousel";
     AppRoutingModule,
     LandingPageModule,
     BrowserAnimationsModule,
-    NgxCarouselModule
+    NgbCarouselModule,
+    NgbPaginationModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

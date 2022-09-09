@@ -1,20 +1,81 @@
+@import "~bootstrap/dist/css/bootstrap.css";
 * {
   margin: 0;
   padding: 0;
 }
 .wrapper {
-  /*min-width: 100vw;*/
   min-height: 100vh;
-  /*box-sizing: border-box*/
 }
 
 .golden-title {
   font-size: 8rem;
 }
-
-@media (max-width: 850px) {
+.golden-text {
+  font-size: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+@media (max-width: 1500px) {
   .golden-title {
     font-size: 3.5rem;
+    text-align: center;
+  }
+  .golden-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  ngb-carousel {
+    max-width: 90% !important;
+    max-height: 35vh !important;
+  }
+
+  .carousel-img {
+    width: auto;
+    margin: auto;
+    max-height: 35vh;
+  }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .about-content{
+    background: none !important;
+    width: 100vw !important;
+    margin: 0 !important;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .about-content>.golden-title, .about-content>.golden-text {
+    color: #ffb700 !important;
+  }
+}
+
+@media (max-width: 850px) {
+  ngb-carousel {
+    width: 100% !important;
+    max-height: 35vh !important;
+  }
+
+  .carousel-img {
+    width: auto;
+    margin: auto;
+    max-height: 35vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .golden-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .golden-text {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 

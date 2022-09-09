@@ -103,5 +103,7 @@
       }
     }
   },
-  "defaultProject": "golden-days"
+  "cli": {
+    "analytics": "2f54d30d-a0be-415b-919f-e40b6fab447e"
+  }
 }

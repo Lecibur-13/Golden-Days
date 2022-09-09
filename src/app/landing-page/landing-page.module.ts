@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LandingPageComponent } from './landing-page.component';
-import {RouterModule, Routes} from "@angular/router";
-import {NgxCarouselModule} from "ngx-light-carousel";
+import { RouterModule, Routes } from "@angular/router";
+import { HttpClientModule} from "@angular/common/http";
+import { NgbModule, NgbCarouselModule, NgbPaginationModule} from "@ng-bootstrap/ng-bootstrap";
 
 export const ROUTES: Routes = [
   {path: '', component: LandingPageComponent},
@@ -13,10 +14,13 @@ export const ROUTES: Routes = [
   declarations: [
     LandingPageComponent
   ],
-    imports: [
-        CommonModule,
-        RouterModule.forChild(ROUTES),
-        NgxCarouselModule,
-    ]
+  imports: [
+    CommonModule,
+    RouterModule.forChild(ROUTES),
+    HttpClientModule,
+    NgbCarouselModule,
+    NgbPaginationModule,
+    NgbModule,
+  ]
 })
 export class LandingPageModule { }
