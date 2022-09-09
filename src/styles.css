@@ -38,6 +38,24 @@
   }
 }
 
+@media (max-width: 1327px){
+  .about-content{
+    background: none !important;
+  }
+
+  /*.about-content>.golden-title, .about-content>.golden-text {*/
+  /*  color: #ffb700 !important;*/
+  /*}*/
+  .me-img{
+    height: 35vh !important;
+  }
+
+  .me-img>img{
+    width: auto;
+    height: 35vh !important;
+  }
+}
+
 
 
 
@@ -51,7 +69,7 @@
   }
 
   .about-content>.golden-title, .about-content>.golden-text {
-    color: #ffb700 !important;
+    color: #F00611 !important;
   }
 }
 
@@ -79,6 +97,11 @@
   }
 }
 
+@font-face {
+  font-family: SaintGeorge;
+  src: url('src/assets/Fonts/SaintGeorge.ttf') format("opentype");
+}
+
 html, body { height: 100%; }
 body { margin: 0;
-  font-family: Saint George , sans-serif;  }
+  font-family: SaintGeorge, sans-serif;  }

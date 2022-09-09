@@ -1,6 +1,11 @@
 /*180 px = 8rem*/
 /*64 px = 4rem*/
 
+@font-face {
+  font-family: SaintGeorge;
+  src: url('src/assets/Fonts/SaintGeorge.ttf') format("opentype");
+}
+
 /*start*/
 .start {
   background: #1e3c7f;
@@ -97,14 +102,15 @@ ngb-carousel {
 }
 
 .about-content{
-  background: #F00611;
+  background: #F5E6C8;
   width: 45vw;
   margin: 0 4rem 0 4rem;
   text-align: center;
   padding: 4rem;
 }
 .about-content>.golden-title, .about-content>.golden-text {
-  color: #F5E6C8;
+  /*color: #F5E6C8;*/
+  color: #F00611;
 }
 
 .me-img{
@@ -147,7 +153,7 @@ ngb-carousel {
   color: #F00611;
   cursor: pointer;
   display: inline-flex;
-  font-family: Saint George, sans-serif;
+  font-family: 'SaintGeorge', sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
